@@ -1,0 +1,193 @@
+body{
+   font-family: Montserrat;
+}
+
+#title{
+   background-color: #ff4c68;
+}
+
+/* ----------------Navigation bar --------------*/
+
+.navbar{
+   padding: 0% 2%;
+}
+
+.nav-item{
+   padding: 0px 12px;
+}
+
+.navbar-brand{
+   color: #ff4c68;
+   font-family: Ubuntu;
+   font-size: 1.8rem;
+   font-weight: bold;
+}
+
+/* --------Img section --------- */
+
+div.container-fluid{
+   padding: 3% 15% 7%;
+}
+
+#title{
+   color: #fff;
+}
+
+h1{
+   font-family: Montserrat-Black;
+   font-size: 5rem;
+   line-height: 1.2;
+   font-weight: bolder;
+}
+
+/* --------- title image ---------- */
+.title-image{
+   width: 22%;
+   transform: rotate(25deg);
+   position: absolute;
+   right: 20%;
+}
+
+.download-btn{
+   margin: 5% 3% 5% 0;
+}
+
+/* -------Features--------- */
+
+#feature{
+   padding: 7% 15%;
+   background-color: #fff;
+   position: relative;
+}
+
+.feature-box i{
+   font-size: 60px;
+   margin-bottom: 10px;
+   color: #ef8172;
+}
+.feature-box i:hover{
+   color: #ff4c68;
+}
+
+.feature-box{
+   text-align: center;
+   padding: 5%;
+}
+
+h3{
+   font-family: Montserrat-Black;
+   font-weight: bold;
+}
+
+#feature p{
+   color: #8f8f8f;
+}
+
+/*-------- Testimonials ----------*/
+
+
+#testimonials{
+   text-align: center;
+   background-color: #ef8172;
+}
+
+.carousel-item{
+   padding: 7% 15%;
+}
+
+.testimonial-text{
+   color: #fff;
+   font-family: Montserrat-Black;
+   font-weight: bolder;
+   font-size: 3rem;
+   line-height: 1.5;
+}
+
+.testimonials-image{
+   width: 13%;
+   border-radius: 100%;
+   padding: 20px;
+}
+
+/* ---------press ---------- */
+
+#press{
+   background-color: #ef8172;
+   text-align: center;
+   padding-bottom: 3%;
+}
+
+.press-logo{
+   width: 15%;
+   margin: 20px 20px 50px;
+}
+
+/* ----------------pricing ---------------- */
+
+
+#pricing h2{
+   font-family: Montserrat-Black;
+   font-weight: bold;
+}
+
+#pricing{
+   padding: 100px;
+   text-align: center;
+}
+
+.princing-column{
+   padding: 3% 2%;
+}
+.princing-column:hover{
+   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.221);
+}
+
+/* -----   cta------------- */
+
+#cta{
+   background-color: #ff4c68;
+   padding: 7% 15%;
+   text-align: center;
+
+}
+
+#cta h2{
+   color: #fff;
+   font-family: Montserrat-Black;
+   font-weight: bolder;
+   font-size: 2.5rem;
+   line-height: 1.5;
+}
+
+.download-btnn{
+   margin: 15px;
+}
+
+
+
+/* ----------footer----------- */
+
+#footer{
+   padding: 7% 15%;
+   text-align: center;
+}
+
+#footer i{
+   padding: 10px;
+}
+#footer i:hover{
+   color: #ff4c68;
+   
+}
+
+@media (max-width:1028px){
+   .title-image{
+      width: 40%;
+      position: static;
+      transform: rotate(0);
+   }
+   #title{
+      text-align: center;
+   }
+   
+}
